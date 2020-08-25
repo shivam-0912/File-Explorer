@@ -1,0 +1,38 @@
+.breadcrumb{
+   background-color: #515161; 
+   border-radius: 0;
+}
+.table{
+    position: center;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+   
+}
+thead{
+    background-color: #68829E;
+    cursor: pointer;
+    color: white;
+}
+tbody{
+    display: block;
+    height: 300px;
+    
+    overflow-y: scroll;
+}
+thead, tbody tr{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+tbody ion-icon{
+    font-size: 20px;
+    color: #68829E;
+}
+.footer{
+    background-color:#515161 ;
+    padding-left: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
